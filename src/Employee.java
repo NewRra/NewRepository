@@ -15,13 +15,7 @@ class Employee implements Person {
     // Метод для виводу інформації
     @Override
     public void getInfo() {
-        System.out.println("Employee - Name: " + name + ", Surname: " + surname + ", Age: " + age);
+        System.out.println("Employee - Name: " + name + ", Surname: " + surname + ", Years to retire: " + (62-age));
     }
 
-    public static void main(String[] args) {
-        // Створення об'єкту Employee
-        Employee employee = new Employee("Іван", "Іваненко", 30);
-        // Вивід інформації про працівника
-        employee.getInfo(); // Виводить: Employee - Name: Іван, Surname: Іваненко, Age: 30
-    }
 }

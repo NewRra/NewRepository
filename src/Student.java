@@ -17,10 +17,4 @@ public class Student {
         return studentId + " " + surname + " " + name + " " + age;
     }
 
-    public static void main(String[] args) {
-        // Створення об'єкту класу Student
-        Student student = new Student("S12345", "Іваненко", "Іван", 30);
-        // Вивід інформації про студента
-        System.out.println(student.getInfo()); // Виводить: S12345 Іваненко Іван 30
-    }
 }
